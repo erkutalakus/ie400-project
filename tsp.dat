@@ -1,0 +1,10 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: moi
+ * Creation Date: 5 May 2020 at 00:14:10
+ *********************************************/
+n = 6;
+SheetConnection sheet("P5.xls");
+Distance from SheetRead(sheet,"'Sayfa1'!A1:F6");
+		
+Time from SheetRead(sheet, "'Sayfa1'!A7:F7");
